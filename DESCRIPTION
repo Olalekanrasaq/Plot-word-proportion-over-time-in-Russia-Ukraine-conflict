@@ -1,0 +1,30 @@
+Package: Package_10880416.10873945.10831920.10819616
+Title: Plot how the proportion of given words in the Ukraine Conflict articles changes over time
+Version: 0.0.0.9000
+Authors@R: 
+    person("olalekan", "rasaq", 
+    email = "olalekanrasaq1331@gmail.com", 
+    role = c("aut", "cre"))
+Description: A package for visualizing how the proportion of a given word or 
+  words in the Ukraine-Russian Conflicts dataset changes over time. With the 
+  dataset been loaded into the package, user provides a word or a list of words 
+  to visualize how its proportion changes over time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    dplyr (>= 1.0.0),
+    ggplot2,
+    lubridate,
+    scales (>= 1.2.0),
+    tidyr,
+    tidytext,
+    tidyverse
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
